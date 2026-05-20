@@ -17,7 +17,6 @@ data_list = [
 ]
 df = pd.DataFrame(data_list, columns=["Product", "Price", "Sales"])
 
-
 print(df.head(5))
 
 print(df.tail(5))
